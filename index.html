@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio Website</title>
+    
+</head>
+<body>
+    <!-- HEADER DESIGH -->
+    <header class="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <FontAwesomeIcon icon="fa-solid fa-bars" />
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="resume-box">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGH -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3><br>
+            <h1>Amruta Patil</h1>
+            <h3>And I'm a <span>Engineering Student</span></h3>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="amruta resume.docx" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profiledp.png" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGH -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/aboutpic.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Motivated and passionate Computer Science Student with a strong foundation in Programming, Algorithms, and Software Development. Seeking an Opportunity to apply and enhance my skills in coding and problem-solving, while contributing to innovative project in a collaborative environment.</p>
+               
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION DESIGH -->
+    <section class="services" id="services">
+        <h2 class="heading">Technical<span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>C Programming</h3>
+                <p>Design and develop software applications, services, and products.
+                    Creating optimized code and debugging existing code.
+                    Developing software solutions to meet customer needs.
+                    Testing code for functionality, accuracy, and reliability.
+                    Collaborating with other developers, designers, and product owners.
+                    Documenting code and maintaining technical specifications.
+                    Developing and deploying new features and updates.</p>
+                
+            </div>
+
+                
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Python</h3>
+                <p>Developed a Python-based Café Management System integrating order processing, inventory management, and reporting functionalities, resulting in a 30% reduction in order processing time and enhanced customer satisfaction.</p>
+            </div>
+
+                
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Web Development</h3>
+                <p>Music Website</p>
+                <p>Implemented an audio player with play, pause, and skip functionalities.
+                Designed an interactive that dynamically updates the current track being played.
+                Styled a website with custom CSS for a clean and user-friendly interface.
+                Utilized JavaScript to add interactivity, including playlist management and navigation.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- HOME SECTION DESIGH -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+            
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="FullName"></input>
+                <input type="email" placeholder="Email Address"></input>
+            </div>
+        
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number"></input>
+                <input type="text" placeholder="Email Subject"></input>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+    </section>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
